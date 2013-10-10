@@ -1,0 +1,64 @@
+class nagios {
+  package {
+    "apache2":
+      ensure => present;
+    "apache2-mpm-prefork":
+      ensure => present;
+    "apache2-utils":
+      ensure => present;
+    "apache2.2-bin":
+      ensure => present;
+    "apache2.2-common":
+      ensure => present;
+    "libapache2-mod-php5":
+      ensure => present;
+    "libapr1":
+      ensure => present;
+    "libaprutil1":
+      ensure => present;
+    "libaprutil1-dbd-sqlite3":
+      ensure => present;
+    "libaprutil1-ldap":
+      ensure => present;
+    "libcap2":
+      ensure => present;
+    "php5":
+      ensure => present;
+    "php5-cli":
+      ensure => present;
+    "php5-common":
+      ensure => present;
+    "ssl-cert":
+      ensure => present;
+    "binutils":
+      ensure => present;
+    "cpp": 
+      ensure => present;
+    "cpp-4.6": 
+      ensure => present;
+    "gcc": 
+      ensure => present;
+    "gcc-4.6": 
+      ensure => present;
+    "libc-dev-bin": 
+      ensure => present;
+    "libc6-dev": 
+      ensure => present;
+    "libgmp10": 
+      ensure => present;
+    "libgomp1": 
+      ensure => present;
+    "libmpc2": 
+      ensure => present;
+    "libmpfr4": 
+      ensure => present;
+    "libquadmath0": 
+      ensure => present;
+    "linux-libc-dev": 
+      ensure => present;
+    "manpages-dev":
+      ensure => present;
+    "php5-gd":
+      ensure => present;
+  }
+}

@@ -1,0 +1,88 @@
+class nagios::installs {
+  package {
+  "apache2-mpm-prefork":
+    ensure => present;
+  "apache2-utils":
+    ensure => present;
+  "apache2.2-bin":
+    ensure => present;
+  "apache2.2-common":
+    ensure => present;
+  "bsd-mailx":
+    ensure => present;
+  "libapache2-mod-php5":
+    ensure => present;
+  "libapr1":
+    ensure => present;
+  "libaprutil1":
+    ensure => present;
+  "libaprutil1-dbd-sqlite3":
+    ensure => present;
+  "libaprutil1-ldap":
+    ensure => present;
+  "libcap2":
+    ensure => present;
+  "libmysqlclient18":
+    ensure => present;
+  "libnet-snmp-perl":
+    ensure => present;
+  "libperl5.14":
+    ensure => present;
+  "libpq5":
+    ensure => present;
+  "libradius1":
+    ensure => present;
+  "libsensors4":
+    ensure => present;
+  "libsnmp-base":
+    ensure => present;
+  "libsnmp15":
+    ensure => present;
+  "libtalloc2":
+    ensure => present;
+  "libtdb1":
+    ensure => present;
+  "libwbclient0":
+    ensure => present;
+  "mysql-common":
+    ensure => present;
+  "nagios-images":
+    ensure => present;
+  "nagios-nrpe-plugin":
+    ensure => present;
+  "nagios-plugins":
+    ensure => present;
+  "nagios-plugins-basic":
+    ensure => present;
+  "nagios-plugins-standard":
+    ensure => present;
+  "nagios3":
+    ensure => present;
+  "nagios3-cgi":
+    ensure => present;
+  "nagios3-common":
+    ensure => present;
+  "nagios3-core":
+    ensure => present;
+  "php5-cli":
+    ensure => present;
+  "php5-common":
+    ensure => present;
+  "postfix":
+    ensure => present;
+  "samba-common":
+    ensure => present;
+  "samba-common-bin":
+    ensure => present;
+  "smbclient":
+    ensure => present;
+  "snmp":
+    ensure => present;
+  "ssl-cert":
+    ensure => present;
+  "nagios-plugins":
+    ensure => present;
+  "nagios-nrpe-server":
+    ensure => present;
+  }
+}

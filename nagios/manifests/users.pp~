@@ -1,0 +1,12 @@
+class nagios::users {
+  group {
+    "nagios":
+      ensure  => present;
+  }
+  user {
+    "nagios":
+      require => Group['nagios'],
+      ensure  => present,
+      shell   => '/bin/bash';
+  }
+}
